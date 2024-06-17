@@ -93,6 +93,13 @@ ul {
     padding: 20px 20%;
 }
 
+.signup {
+    padding: 10px 40px;
+    background-color: rgb(100, 150, 100);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 .footer {
     margin-top: auto;
     background-color: rgb(200,200,200);
