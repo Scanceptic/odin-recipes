@@ -48,16 +48,16 @@ a {
     justify-content: center;
 }
 
-.column {
+.card {
     flex: 33%;
     border: 4px solid rgb(0,0,0);
     margin: 1%;
     text-align: center;
     max-width: 250px;
+    border-radius: 5px;
 }
 
 .card {
-    background-color: rgb(100, 150, 100);
 }
 
 .header {
@@ -86,6 +86,7 @@ ul {
 
 .recipes {
     margin: 50px 10%;
+    flex-wrap: wrap;
 }
 
 .call-to-action {
@@ -98,6 +99,49 @@ ul {
     background-color: rgb(100, 150, 100);
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.review img {
+    width: 200px;
+    height: auto;
+    max-height: 300px;
+}
+
+.review-text {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.review-author {
+    text-align: right;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .footer {
