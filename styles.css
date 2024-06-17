@@ -3,10 +3,12 @@
     Add colors, background colors, typography properties (font-size, font-family, font-weight, text-align)
     Link to all html pages including recipes
 */
-* {
+body {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: 18px;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1, a, h2, h3 {
@@ -14,13 +16,11 @@ h1, a, h2, h3 {
     font-weight: 700;
 }
 
-h1, h2, h3 {
-    border: 4px solid rgb(0,0,0);
-    background-color: rgb(100, 150, 100);
-}
+
 
 h1 {
     font-size: 48px;
+    margin: 0;
 }
 
 h2 {
@@ -33,10 +33,6 @@ h3 {
 
 li {
     text-align: left;
-}
-
-ul li {
-    list-style: square;
 }
 
 a {
@@ -56,4 +52,23 @@ a {
     margin: 1%;
     text-align: center;
     max-width: 250px;
+}
+
+.header {
+    border: 4px solid rgb(0,0,0);
+    background-color: rgb(100, 150, 100);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    margin-top: auto;
 }
